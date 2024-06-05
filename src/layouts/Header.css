@@ -1,0 +1,21 @@
+/* Header.css */
+.profile {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.profile img {
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link .dropdown {
+  position: absolute;
+  right: 0;
+  top: 100%;
+}
